@@ -8,7 +8,7 @@
     docker-compose up --build
 ```
 
-## Configurar e instalar o plugin com o bloco de exemplo
+## Ativar o plugin com o bloco de exemplo
 
 Acesse o README da pasta: site/wp-content/plugins/gutenberg-examples
 
@@ -18,4 +18,4 @@ Acesse o README da pasta: site/wp-content/plugins/gutenberg-examples
 
 ## Fonte
 
-> https://www.youtube.com/watch?v=jhAyVxyVaX0&t=2871s&ab_channel=DescomplicandoSites
+> https://github.com/WordPress/gutenberg-examples/tree/trunk

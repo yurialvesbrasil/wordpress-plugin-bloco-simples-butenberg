@@ -16,7 +16,7 @@ npm install
 npm run build
 ```
 
-## Instalação do plugin no wordpress
+## Ativar o plugin no wordpress
 
 Gutenberg Examples are distributed as WordPress plugin.
 
