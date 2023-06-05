@@ -16,18 +16,25 @@ npm install
 npm run build
 ```
 
-## Instalação no wordpress
+## Instalação do plugin no wordpress
 
 Gutenberg Examples are distributed as WordPress plugin.
 
-1. Navigate to the **Plugins > Todos os plugins** screen in your WordPress administrative dashboard.
-2. Ative o plugin **Butenberg Examples**
+1. Navigate to the **Plugins > Plugins instalados** screen in your WordPress administrative dashboard.
+2. Ative o plugin **Gutenberg Examples**
 3. You’re done!
-4. Adicione o plugin na pagina inicial ou em um post.
+
+## Adicionando o bloco na página de exemplo
+
+1. Navigate to the **Páginas > Plugins instalados** screen in your WordPress administrative dashboard.
+2. Edit **Página de exemplo**
+3. Adicione o bloco: **Example: Basic (ESNext)**
+4. Congratulations, the custom block has been added to your page!
 
 ## Desenvolvimento
 
-A cada modificação execute o comando abaixo para executar o novo build:
+O código fonte do bloco está em: **./01-basic-esnext/**
+A cada modificação no código do bloco, execute o comando abaixo, para executar o novo build:
 
 ```bash
 npm run build
