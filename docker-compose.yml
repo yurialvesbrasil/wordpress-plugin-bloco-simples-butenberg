@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+   db-custom-block:
+     image: mysql:5.7
+     volumes:
+       - ./db/volume:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: customblockDB
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+     container_name: wp_custom_block_db       
+
+   wordpress-custom-block:
+     depends_on:
+       - db-custom-block  
+     image: wordpress:latest
+     ports:
+       - "8000:80"
+     restart: always
+     volumes: 
+            - ./site:/var/www/html
+     environment:
+       WORDPRESS_DB_HOST: db-custom-block:3306
+       WORDPRESS_DB_NAME: customblockDB
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+     container_name: wp_custom_block_wordpress       
