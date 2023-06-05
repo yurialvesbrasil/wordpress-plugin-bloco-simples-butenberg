@@ -20,12 +20,10 @@ npm run build
 
 Gutenberg Examples are distributed as WordPress plugin.
 
-1. Navigate to the __Plugins > Add new__ screen in your WordPress administrative dashboard.
-2. Click __Add New__ at the top of the page.
-3. Click __Upload Plugin__ at the top of the page.
-4. Click __Choose File__, then find and __Upload__ the downloaded zip file.
-5. After the plugin finishes installing, click __Activate__.
-6. You’re done!
+1. Navigate to the **Plugins > Todos os plugins** screen in your WordPress administrative dashboard.
+2. Ative o plugin **Butenberg Examples**
+3. You’re done!
+4. Adicione o plugin na pagina inicial ou em um post.
 
 ## Desenvolvimento
 
@@ -34,4 +32,3 @@ A cada modificação execute o comando abaixo para executar o novo build:
 ```bash
 npm run build
 ```
-
